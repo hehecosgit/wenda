@@ -41,7 +41,7 @@ public class InitDataBaseTests {
 			date.setTime(date.getTime()+1000*3600*i);
 			question.setCreatedDate(date);
 			question.setTitle("Title"+i);
-			question.setUserId(i);
+			question.setUserId(i+1);
 			questionDAO.addQuestion(question);
 
 		}
